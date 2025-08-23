@@ -1,6 +1,6 @@
 # Integrity & Provenance
 
-Public key: [`keys/emm_pub_key.asc`]() (ASCII‑armored)  
+Public key in the repo **euro-macromechanica-results**: [`keys/emm_pub_key.asc`](https://github.com/rleydev/euro-macromechanica-results/tree/main/keys/emm_pub_key.asc) (ASCII‑armored)  
 **GPG key fingerprint (rleydev — thelaziestcat):** `4E53 DA03 D1A1 644E 6479  3C47 EEEC 0AFA 4D8A F0A7`
 
 SHA-256, GPG signatures, OpenTimeStamps anchores - [/integrity/...](https://github.com/rleydev/euro-macromechanica-backtest-data/tree/main/integrity)

@@ -153,6 +153,8 @@ if ($errors.Count -eq 0) { "OK: все файлы совпали" } else { $erro
 
 ## 🔐 Подпись GPG и OpenTimestamps
 
+GPG пубоичный ключ в репозитории **euro-macromechanica-results**: [`keys/emm_pub_key.asc`](https://github.com/rleydev/euro-macromechanica-results/tree/main/keys/emm_pub_key.asc) 
+
 ```bash
 # проверка GPG-подписи манифеста
 gpg --import keys/emm_pub_key.asc

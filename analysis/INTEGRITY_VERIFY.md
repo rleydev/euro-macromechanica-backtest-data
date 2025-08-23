@@ -153,6 +153,8 @@ if ($errors.Count -eq 0) { "OK: all files match" } else { $errors -join "`n" }
 
 ## 🔐 GPG signature & OpenTimestamps
 
+GPG public key in the repo **euro-macromechanica-results**: [`keys/emm_pub_key.asc`](https://github.com/rleydev/euro-macromechanica-results/tree/main/keys/emm_pub_key.asc) 
+
 ```bash
 # verify the GPG signature of the manifest
 gpg --import keys/emm_pub_key.asc
