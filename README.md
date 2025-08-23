@@ -16,11 +16,11 @@ This repository is part of the **Euro Macromechanica Backtest (EMM)** ecosystem.
 ## 🧭 Purpose
 - Collect, normalize, and store source data used in the EMM backtest.
 - Publish analysis aggregates (gaps/continuity, etc.) and integrity materials so anyone can verify the released results.
-- For detailed preparation processes, see `economic_calendars/README.md` (calendar collection & normalization)
-  and `analysis/README.md` (gap/continuity metrics and summaries).
+- For detailed preparation processes, see [`economic_calendars/README.md`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/economic_calendars/README.md) (calendar collection & normalization)
+  and [`analysis/README.md`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/analysis/README.md) (gap/continuity metrics and summaries).
 
 The final data‑quality verdict and the **headline/stress** inclusion rules are published in the results repository:  
-**`euro-macromechanica-results` → `data_quality_policy/…`**
+**`euro-macromechanica-results` → [`data_quality_policy/…`](https://github.com/rleydev/euro-macromechanica-results/tree/main/data_quality_policy)**
 
 ---
 

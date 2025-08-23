@@ -16,12 +16,12 @@
 ## 🧭 Назначение
 - Сбор, нормализация и хранение исходных данных для бэктеста EMM.
 - Публикация агрегатов анализа (разрывы/континуити и пр.) и материалов для верификации результата.
-- Подробные процессы подготовки данных: см. `economic_calendars/README.md` (сбор и нормализация календарей)
-  и `analysis/README.md` (метрики гэпов/continuity и сводные таблицы).
+- Подробные процессы подготовки данных: см. [`economic_calendars/README.md`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/economic_calendars/README.ru.md) (сбор и нормализация календарей)
+  и [`analysis/README.md`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/analysis/README.ru.md) (метрики гэпов/continuity и сводные таблицы).
 
 
 Итоговый вердикт по качеству данных и правила включения лет в **headline/stress** см. в репозитории результатов:  
-**`euro-macromechanica-results` → `data_quality_policy/…`**
+**`euro-macromechanica-results` → [`data_quality_policy/…`](https://github.com/rleydev/euro-macromechanica-results/tree/main/data_quality_policy)**
 
 ---
 
