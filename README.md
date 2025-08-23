@@ -66,7 +66,7 @@ INTEGRITY.md               # SHA‑256 / GPG / OTS verification guide
 ---
 
 ## ✉️ Contact
-GitHub: **@rleydev (thelaziestcat)** · Email: **thelaziestcat@proton.me**
+GitHub: **@rleydev (thelaziestcat)** · Email: **thelaziestcat@proton.me** / **thelazyazzcat@gmail.com**
 
 ---
 

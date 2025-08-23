@@ -69,7 +69,7 @@ INTEGRITY.md              # как проверять SHA-256 / GPG / OTS
 ---
 
 ## ✉️ Контакты
-GitHub: **@rleydev (thelaziestcat)** · Email: **thelaziestcat@proton.me**
+GitHub: **@rleydev (thelaziestcat)** · Email: **thelaziestcat@proton.me**  / **thelazyazzcat@gmail.com**
 
 --- 
 
