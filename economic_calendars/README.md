@@ -68,7 +68,7 @@ Each `calendar_YYYY/` folder contains the main artifacts:
 - **`.csv.gz` archive**  
 - **CSV** (extracted/plain)  
 
-See **[integrity folder](https://github.com/rleydev/euro-macromechanica-backtest-data/tree/main/integrity/economic_calendar)**:
+See **[integrity folder](https://github.com/rleydev/euro-macromechanica-backtest-data/tree/main/integrity/economic_calendars)**:
 
 - **SHA-256 hashes** for `.csv.gz` and `.csv`  
 - **GPG signatures** of the SHA-256 files
@@ -179,7 +179,7 @@ The strategy already contains minimal logic (feasible to implement in code) for 
 
 ## 🛠 Compilation & Transparency
 
-The calendar was compiled using **[economic_calendar_builder](https://github.com/rleydev/euro-macromechanica-tools/tree/main/economic_calendar/economic_calendar_builder)** and **ChatGPT‑5 (Thinking & Pro modes)** to improve efficiency. The builder implements the core data‑gathering logic; some parts are intentionally left lightweight to preserve flexibility in the research‑mode environment without excessive code in ChatGPT‑5 (Thinking & Pro) modes.
+The calendar was compiled using **[economic_calendar_builder](https://github.com/rleydev/euro-macromechanica-tools/tree/main/economic_calendar_builder)** and **ChatGPT‑5 (Thinking & Pro modes)** to improve efficiency. The builder implements the core data‑gathering logic; some parts are intentionally left lightweight to preserve flexibility in the research‑mode environment without excessive code in ChatGPT‑5 (Thinking & Pro) modes.
 
 Use the builder for your own needs or to verify the transparency of this calendar, following the sections **Countries**, **News Scope**, **Author’s Adjustments to Importance**, and the correct conversion to **UTC+0** with daylight saving/time changes taken into account.
 
