@@ -7,9 +7,9 @@
 
 ## 🔗 Связанная экосистема
 - **Результаты бэктеста, доказательство наличия стратегии, политика качества данных, интегриты** —  
-  *euro-macromechanica-results*
+  [*euro-macromechanica-results*](https://github.com/rleydev/euro-macromechanica-results/tree/main/)
 - **Инструменты для сбора, подготовки и анализа данных (код-только)** —  
-  *euro-macromechanica-tools*
+  [*euro-macromechanica-tools*](https://github.com/rleydev/euro-macromechanica-tools/tree/main/)
 
 ---
 

@@ -6,10 +6,10 @@ This repository is part of the **Euro Macromechanica Backtest (EMM)** ecosystem.
 ---
 
 ## 🔗 Related ecosystem
-- **Backtest results, strategy‑proofs, Data Quality Policy, integrity artifacts** —  
-  *euro-macromechanica-results*
+- **Backtest results, strategy‑proofs, data quality policy, integrity artifacts** —  
+ [*euro-macromechanica-results*](https://github.com/rleydev/euro-macromechanica-results/tree/main/)
 - **Data collection / preparation / analysis tools (code‑only)** —  
-  *euro-macromechanica-tools*
+ [*euro-macromechanica-tools*](https://github.com/rleydev/euro-macromechanica-tools/tree/main/)
 
 ---
 
