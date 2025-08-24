@@ -39,7 +39,7 @@ if command -v sha256sum >/dev/null 2>&1; then HASH='sha256sum'; else HASH='shasu
 echo "Using: $HASH"
 ```
 
-**0.a) Normalize manifest paths (absolute → basename)**  
+**0) Normalize manifest paths (absolute → basename)**  
 Create a local copy of the manifest in which absolute paths are replaced with basenames:
 ```bash
 YEAR=YYYY

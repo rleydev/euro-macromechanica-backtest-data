@@ -39,7 +39,7 @@ if command -v sha256sum >/dev/null 2>&1; then HASH='sha256sum'; else HASH='shasu
 echo "Using: $HASH"
 ```
 
-**0.a) Нормализовать пути манифеста (absolute → basename)**  
+**0) Нормализовать пути манифеста (absolute → basename)**  
 Создаём локальную копию манифеста, где вместо абсолютных путей — только имена файлов:
 ```bash
 YEAR=YYYY
@@ -153,7 +153,7 @@ if ($errors.Count -eq 0) { "OK: все файлы совпали" } else { $erro
 
 ## 🔐 Подпись GPG и OpenTimestamps
 
-GPG пубоичный ключ в репозитории **euro-macromechanica-results**: [`keys/emm_pub_key.asc`](https://github.com/rleydev/euro-macromechanica-results/tree/main/keys/emm_pub_key.asc) 
+GPG публичный ключ в репозитории **euro-macromechanica-results**: [`keys/emm_pub_key.asc`](https://github.com/rleydev/euro-macromechanica-results/tree/main/keys/emm_pub_key.asc) 
 
 ```bash
 # проверка GPG-подписи манифеста
