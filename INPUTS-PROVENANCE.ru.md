@@ -47,51 +47,56 @@
 
 ---
 
-## 🧷 Таблицы якорей
+## Таблицы якорей
 
-### A) RAW минутные данные (архив‑снимок)
+### A) RAW минутные данные (архив-снимок)
 
-|----------------------|--------------------------------------------|
-| Архив                | **`<source_data_2001-2025(jul).tar.xz>`**  |
-| Состав               | «Сырые минутные данные (M1) из HistData; без модификаций» |
-| Хэш‑функция          | `SHA-256` |
-| SHA‑256 архива       | **`<7654b325da63fb415ad0a1aef17daf1a9f1ea721d0bf50413eacdd3d5c5bab7d>`** |
-| Подпись GPG (`.asc`) | `integrity/source_data/source_data_2001-2025(jul).tar.xz.sha256.asc` |
-| OTS (`.ots`)         | `integrity/source_data/source_data_2001-2025(jul).tar.xz.sha256.ots` |
-| Bitcoin txid         | **`<d883cb3a197d8ed47a184b4dcd305047cedae9a0ad948bd7993737af571ce088>`** |
-| Высота блока         | **`<909599>`** |
-| Время блока (UTC)    | **`<2025-08-11 19:21:02>`** |
-| Ссылка (data‑hub)    | [`source_data/source_data_2001-2025(jul).tar.xz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/source_data/source_data_2001-2025(jul).tar.xz) |
+| Поле | Значение |
+|---|---|
+| Архив | `source_data_2001-2025(jul).tar.xz` |
+| Содержимое | Сырые минутные данные (M1) из HistData; без модификаций |
+| Хэш-функция | `SHA-256` |
+| SHA-256 архива | `7654b325da63fb415ad0a1aef17daf1a9f1ea721d0bf50413eacdd3d5c5bab7d` |
+| Подпись GPG (.asc) | `integrity/source_data/source_data_2001-2025(jul).tar.xz.sha256.asc` |
+| OTS (.ots) | `integrity/source_data/source_data_2001-2025(jul).tar.xz.sha256.ots` |
+| Bitcoin txid | `d883cb3a197d8ed47a184b4dcd305047cedae9a0ad948bd7993737af571ce088` |
+| Высота блока | `909599` |
+| Время блока (UTC) | `2025-08-11T19:21:02Z` |
+| Ссылка (data-hub) | [`source_data/source_data_2001-2025(jul).tar.xz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/source_data/source_data_2001-2025(jul).tar.xz) |
 
 ---
 
-### B) PREPARED минутные данные (архив‑снимок)
+### B) PREPARED минутные данные (архив-снимок)
 
-|----------------------|--------------------------------------------|
-| Архив                | **`<analyzed_full_2001-2025jul.tar.gz>`**  |
-| Состав               | «Подготовленные минутные данные (UTC±00:00), после фильтра/нормализации» |
-| Хэш‑функция          | `SHA-256` |
-| SHA‑256 архива       | **`<e81f26072b48e62eb37dcd4da9919608e05da871b7264d3718e01244a2658d5f>`** |
-| Подпись GPG (`.asc`) | `integrity/prepared/analyzed_full_2001-2025jul.tar.gz.sha256.asc` |
-| OTS (`.ots`)         | `integrity/prepared/analyzed_full_2001-2025jul.tar.gz.sha256.ots` |
-| Bitcoin txid         | **`<3646771ecc29d275b1b80ead9d5866a3b8867e6488df8d42145e2824a06e2a71>`** |
-| Высота блока         | **`<910536>`** |
-| Время блока (UTC)    | **`<2025-08-18 02:06:26 >`** |
-| Ссылка (data‑hub)    | [`prepared/analyzed_full_2001-2025jul.tar.gz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/prepared/analyzed_full_2001-2025jul.tar.gz) |
+| Поле | Значение |
+|---|---|
+| Архив | `analyzed_full_2001-2025jul.tar.gz` |
+| Содержимое | Подготовленные минутные данные (UTC±00:00) после фильтра/нормализации |
+| Хэш-функция | `SHA-256` |
+| SHA-256 архива | `e81f26072b48e62eb37dcd4da9919608e05da871b7264d3718e01244a2658d5f` |
+| Подпись GPG (.asc) | `integrity/prepared/analyzed_full_2001-2025jul.tar.gz.sha256.asc` |
+| OTS (.ots) | `integrity/prepared/analyzed_full_2001-2025jul.tar.gz.sha256.ots` |
+| Bitcoin txid | `3646771ecc29d275b1b80ead9d5866a3b8867e6488df8d42145e2824a06e2a71` |
+| Высота блока | `910536` |
+| Время блока (UTC) | `2025-08-18T02:06:26Z` |
+| Ссылка (data-hub) | [`prepared/analyzed_full_2001-2025jul.tar.gz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/prepared/analyzed_full_2001-2025jul.tar.gz) |
 
-### C) Экономические календари (архив‑снимок)
+---
 
-|----------------------|--------------------------------------------|
-| Архив                | **`<jan2001-jul2025.tar.gz>`**  |
-| Состав               | «Календарные метаданные (центробанки/статведомства), UTC‑времена публикаций» |
-| Хэш‑функция          | `SHA-256` |
-| SHA‑256 архива       | **`<0bd28458c49affc3b052116279827a8c840edf2dc4295d57a0b7e2a7b0b2e045>`** |
-| Подпись GPG (`.asc`) | `integrity/economic_calendars/jan2001-jul2025.tar.gz.sha256.asc` |
-| OTS (`.ots`)         | `integrity/economic_calendars/jan2001-jul2025.tar.gz.sha256.ots` |
-| Bitcoin txid         | **`<a95e00f437575dad58c5e074352b6f4c9637ace705eccb05aa936e1cb99c6ffb>`** |
-| Высота блока         | **`<910177>`** |
-| Время блока (UTC)    | **`<2025-08-15 16:31:10 >`** |
-| Ссылка (data‑hub)    | [`economic_calendars/jan2001-jul2025.tar.gz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/economic_calendars/jan2001-jul2025.tar.gz) |
+### C) Экономические календари (архив-снимок)
+
+| Поле | Значение |
+|---|---|
+| Архив | `jan2001-jul2025.tar.gz` |
+| Содержимое | Календарные метаданные (центробанки/статведомства), времена публикаций в UTC |
+| Хэш-функция | `SHA-256` |
+| SHA-256 архива | `0bd28458c49affc3b052116279827a8c840edf2dc4295d57a0b7e2a7b0b2e045` |
+| Подпись GPG (.asc) | `integrity/economic_calendars/jan2001-jul2025.tar.gz.sha256.asc` |
+| OTS (.ots) | `integrity/economic_calendars/jan2001-jul2025.tar.gz.sha256.ots` |
+| Bitcoin txid | `a95e00f437575dad58c5e074352b6f4c9637ace705eccb05aa936e1cb99c6ffb` |
+| Высота блока | `910177` |
+| Время блока (UTC) | `2025-08-15T16:31:10Z` |
+| Ссылка (data-hub) | [`economic_calendars/jan2001-jul2025.tar.gz`](https://github.com/rleydev/euro-macromechanica-backtest-data/blob/main/economic_calendars/jan2001-jul2025.tar.gz) |
 
 ---
 
