@@ -7,4 +7,17 @@ be hosted, contact the maintainer for prompt removal.
 
 Snapshots are published **solely for reproducibility and audit** of the author’s backtests.
 
-Maintainer: rleydev (thelaziestcat) · thelaziestcat@proton.me
+Maintainer: rleydev (thelaziestcat) · thelaziestcat@proton.me / thelazyazzcat@gmail.com
+
+
+
+УВЕДОМЛЕНИЕ — Сторонние рыночные данные
+
+В этом репозитории размещены датасеты, полученные у внешних провайдеров (например, HistData), а также производные агрегаты автора.
+Если иное явно не указано, **все права на сторонние датасеты принадлежат их правообладателям**.
+Перераспространение или релицензирование здесь не предоставляется. Если вы правообладатель и считаете, что файл не должен
+размещаться, свяжитесь с мейнтейнером для оперативного удаления.
+
+Снапшоты публикуются **исключительно для воспроизводимости и аудита** бэктестов автора.
+
+Контакт: rleydev (thelaziestcat) · thelaziestcat@proton.me / thelazyazzcat@gmail.com
